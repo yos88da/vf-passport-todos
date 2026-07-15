@@ -29,7 +29,7 @@
 					<input id="current-password" name="password" type="password" autocomplete="current-password" required>
 				</section>
 				<input type="hidden" name="_csrf" value="<%= csrfToken %>">
-				<button type="submit">Sign in</button>
+				<!-- Regression under test: the original application's submit control was accidentally removed. -->
 			</form>
 			<hr>
 			<p class="help">Don't have an account? <a href="/signup">Sign up</a></p>
