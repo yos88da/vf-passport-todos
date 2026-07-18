@@ -28,7 +28,8 @@
   },
   "license": "Unlicense",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "test": "node test/home-sign-in.test.js"
   },
   "dependencies": {
     "connect-ensure-login": "^0.1.1",
